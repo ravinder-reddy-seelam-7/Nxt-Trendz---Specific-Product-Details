@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.similar-products-bg-container {
+  margin-bottom: 15px;
+}
+.similar-products-heading {
+  margin-left: 5%;
+}
+.similar-products-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 5%;
+}
+.similar-product-image {
+  width: 100%;
+  border-radius: 10px;
+}
+.each-product-price-rating-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-products-bg-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+  }
+  .similar-products-container {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 5%;
+  }
+}
